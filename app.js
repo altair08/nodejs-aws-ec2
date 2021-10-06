@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>pipeline_status: Success again</h4>');
+  res.send('<h1>Node.js Express Demo App</h1> <h4>pipeline_status: Success again</h4>');
 })
 
 app.get('/products', (req, res) => {
